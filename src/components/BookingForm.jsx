@@ -51,20 +51,28 @@ const BookingForm = () => {
             </p>
             
             <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
-              <div className="premium-card" style={{ display: 'flex', alignItems: 'center', gap: '20px', padding: '30px' }}>
+              <a 
+                href="tel:+916392199108"
+                className="premium-card" 
+                style={{ display: 'flex', alignItems: 'center', gap: '20px', padding: '30px', textDecoration: 'none', transition: 'var(--transition)' }}
+              >
                 <div style={{ fontSize: '2.4rem', color: 'var(--primary)' }}>📞</div>
                 <div>
                   <b style={{ color: 'var(--text-dark)', display: 'block', fontSize: '1.2rem' }}>Direct Line</b>
-                  <span style={{ fontSize: '1rem', opacity: 0.8 }}>+91-63921 99108</span>
+                  <span style={{ fontSize: '1rem', color: 'var(--text-main)' }}>+91-63921 99108</span>
                 </div>
-              </div>
-              <div className="premium-card" style={{ display: 'flex', alignItems: 'center', gap: '20px', padding: '30px' }}>
+              </a>
+              <a 
+                href="mailto:shriyanshnarayanpandey0214@gmail.com"
+                className="premium-card" 
+                style={{ display: 'flex', alignItems: 'center', gap: '20px', padding: '30px', textDecoration: 'none', transition: 'var(--transition)' }}
+              >
                 <div style={{ fontSize: '2.4rem', color: 'var(--accent)' }}>📧</div>
                 <div>
                   <b style={{ color: 'var(--text-dark)', display: 'block', fontSize: '1.2rem' }}>Official Support</b>
-                  <span style={{ fontSize: '1rem', opacity: 0.8 }}>shriyanshnarayanpandey0214@gmail.com</span>
+                  <span style={{ fontSize: '1rem', color: 'var(--text-main)' }}>shriyansh...gmail.com</span>
                 </div>
-              </div>
+              </a>
             </div>
           </motion.div>
 
@@ -84,7 +92,7 @@ const BookingForm = () => {
               </div>
             ) : (
               <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px' }}>
+                <div className="form-split-grid">
                   <div>
                     <label style={{ display: 'block', fontWeight: '800', marginBottom: '12px', color: 'var(--text-dark)', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Parent Name</label>
                     <input name="parentName" type="text" placeholder="e.g., Rajesh Sharma" required className="input-modern" value={formData.parentName} onChange={handleChange} />

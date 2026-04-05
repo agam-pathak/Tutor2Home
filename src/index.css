@@ -211,6 +211,18 @@ section { padding: 120px 0; }
   gap: 24px;
 }
 
+.form-split-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+@media (max-width: 600px) {
+  .form-split-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Footer Tidy */
 .footer { background: var(--dark); padding: 100px 0 40px; color: white; }
 

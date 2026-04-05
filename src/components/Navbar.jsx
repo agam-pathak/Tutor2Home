@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import logoIcon from '/favicon.png';
 
 const Navbar = ({ darkMode, toggleDark }) => {
   const [scrolled, setScrolled] = useState(false);
@@ -14,8 +15,9 @@ const Navbar = ({ darkMode, toggleDark }) => {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-content">
-        <Link to="/" className="logo">
-          Tutor<span>to</span>Home
+        <Link to="/" className="logo" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          <img src={logoIcon} alt="TutortoHome" style={{ width: '36px', height: '36px' }} />
+          <span>Tutor<span>to</span>Home</span>
         </Link>
 
         <div className="nav-links">
