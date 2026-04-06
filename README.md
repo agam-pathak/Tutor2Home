@@ -1,7 +1,7 @@
-# 🎓 TutortoHome
+# 🎓 Tutor2Home
 ### Premium 1-on-1 Academic Mentorship Platform
 
-**TutortoHome** is a high-end, conversion-optimized educational platform designed for professional home tutors. It features a modern, responsive UI with a focus on authority, trust, and student results.
+**Tutor2Home** is a high-end, conversion-optimized educational platform designed for professional home tutors. It features a modern, responsive UI with a focus on authority, trust, and student results.
 
 ---
 
@@ -32,8 +32,8 @@
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/agam-pathak/TutortoHome.git
-cd tutortohome
+git clone https://github.com/agam-pathak/Tutor2Home.git
+cd tutor2home
 ```
 
 ### 2. Install Dependencies
@@ -68,9 +68,9 @@ src/
 
 ## 👤 Credits
 
-Developed and Maintained by **Shreyansh Narayan Pandey**.
+Developed and Maintained by **Shriyansh Narayan Pandey**.
 
-**TutortoHome** - *Transforming students into toppers, one session at a time.*
+**Tutor2Home** - *Transforming students into toppers, one session at a time.*
 
 ---
 

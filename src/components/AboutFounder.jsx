@@ -16,7 +16,7 @@ const AboutFounder = () => {
         >
           <img 
             src={founderPhoto} 
-            alt="Shreyansh Narayan Pandey" 
+            alt="Shriyansh Narayan Pandey" 
             className="hero-img"
             style={{ 
               objectFit: 'cover', 
@@ -42,7 +42,7 @@ const AboutFounder = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <span className="section-tag">Lead Mentor</span>
-          <h2 className="section-title">Meet <span className="text-gradient">Shreyansh</span> <br /> Narayan Pandey</h2>
+          <h2 className="section-title">Meet <span className="text-gradient">Shriyansh</span> <br /> Narayan Pandey</h2>
           
           <p style={{ fontSize: '1.2rem', color: 'var(--text-dark)', fontWeight: '700', marginBottom: '24px', lineHeight: '1.6' }}>
             Every student has hidden brilliance waiting for the right key. I'm here to provide that key.

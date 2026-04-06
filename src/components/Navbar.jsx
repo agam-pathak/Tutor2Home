@@ -16,8 +16,8 @@ const Navbar = ({ darkMode, toggleDark }) => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-content">
         <Link to="/" className="logo" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <img src={logoIcon} alt="TutortoHome" style={{ width: '36px', height: '36px' }} />
-          <span>Tutor<span>to</span>Home</span>
+          <img src={logoIcon} alt="Tutor2Home" style={{ width: '36px', height: '36px' }} />
+          <span>Tutor<span>2</span>Home</span>
         </Link>
 
         <div className="nav-links">

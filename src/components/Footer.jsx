@@ -16,7 +16,7 @@ const Footer = () => (
           <h4 style={{ fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '2px', color: 'var(--accent)', marginBottom: '8px' }}>Navigate</h4>
           <a href="#home" style={{ color: 'white', textDecoration: 'none', opacity: 0.6, fontSize: '0.95rem' }}>Home</a>
           <a href="#services" style={{ color: 'white', textDecoration: 'none', opacity: 0.6, fontSize: '0.95rem' }}>Programs</a>
-          <a href="#about-founder" style={{ color: 'white', textDecoration: 'none', opacity: 0.6, fontSize: '0.95rem' }}>About Shreyansh</a>
+          <a href="#about-founder" style={{ color: 'white', textDecoration: 'none', opacity: 0.6, fontSize: '0.95rem' }}>About Shriyansh</a>
           <a href="#testimonials" style={{ color: 'white', textDecoration: 'none', opacity: 0.6, fontSize: '0.95rem' }}>Reviews</a>
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -26,7 +26,7 @@ const Footer = () => (
         </div>
       </div>
       <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '30px', textAlign: 'center', opacity: 0.4, fontSize: '0.9rem' }}>
-        © {new Date().getFullYear()} TutortoHome. All rights reserved.
+        © {new Date().getFullYear()} Tutor2Home. All rights reserved.
       </div>
     </div>
   </footer>

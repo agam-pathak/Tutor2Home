@@ -2,9 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const testimonials = [
-  { name: 'Dr. Anita Sharma', role: 'Parent, Class 10th Student', text: 'Shreyansh has transformed our son\'s approach to Mathematics. His patience and unique methods achieved results that classes couldn\'t provide in years.' },
+  { name: 'Dr. Anita Sharma', role: 'Parent, Class 10th Student', text: 'Shriyansh has transformed our son\'s approach to Mathematics. His patience and unique methods achieved results that classes couldn\'t provide in years.' },
   { name: 'Sameer Verma', role: 'Student, Class 12th', text: 'The 1-on-1 focus helped me master complex physics concepts for my boards effortlessly. I felt confident for the first time in my academic career.' },
-  { name: 'Priya Kapoor', role: 'Parent, Class 8th Student', text: 'A truly professional mentorship. Not just teaching, but building real confidence. I highly recommend Shreyansh for any student struggling with fundamentals.' }
+  { name: 'Priya Kapoor', role: 'Parent, Class 8th Student', text: 'A truly professional mentorship. Not just teaching, but building real confidence. I highly recommend Shriyansh for any student struggling with fundamentals.' }
 ];
 
 const Reviews = () => (

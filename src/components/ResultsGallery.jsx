@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const achievements = [
-  { year: '2021', title: 'First Batch of Toppers', desc: '8 students scored 95%+ in Class 10 Board Exams under Shreyansh\'s mentorship.', stat: '95%+', label: 'Avg Score' },
+  { year: '2021', title: 'First Batch of Toppers', desc: "8 students scored 95%+ in Class 10 Board Exams under Shriyansh's mentorship.", stat: '95%+', label: 'Avg Score' },
   { year: '2022', title: 'Expanded to Senior Secondary', desc: 'Launched Class 11-12 programs with a focus on JEE Foundation and Board mastery.', stat: '50+', label: 'Students' },
   { year: '2023', title: 'Record-Breaking Results', desc: '3 students qualified for prestigious Olympiad rounds. 100% pass rate maintained.', stat: '100%', label: 'Pass Rate' },
   { year: '2024', title: 'Community Trust', desc: 'Over 100 families served. Received "Most Trusted Tutor" recognition in the local community.', stat: '100+', label: 'Families' },

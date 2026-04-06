@@ -19,8 +19,8 @@ const faqData = [
     answer: 'Our fees are competitive and vary based on the class level and number of sessions per week. We offer flexible monthly payment plans. Exact pricing is discussed during the free demo call to ensure a package that fits your needs.'
   },
   {
-    question: 'How is TutortoHome different from coaching centers?',
-    answer: 'Unlike large coaching centers where students are just a number, we provide dedicated 1-on-1 mentorship. Every lesson plan is customized to the student\'s strengths, weaknesses, and learning pace. Our founder, Shreyansh, personally oversees each student\'s progress.'
+    question: 'How is Tutor2Home different from coaching centers?',
+    answer: 'Unlike large coaching centers where students are just a number, we provide dedicated 1-on-1 mentorship. Every lesson plan is customized to the student\'s strengths, weaknesses, and learning pace. Our founder, Shriyansh, personally oversees each student\'s progress.'
   },
   {
     question: 'Can I change the schedule after enrolling?',

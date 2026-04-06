@@ -13,7 +13,7 @@ const blogPosts = [
       { heading: '2. Practice with Purpose (Week 5–8)', body: 'Move to the exercises at the end of each NCERT chapter. Solve every single problem — not just the ones your teacher assigned. Time yourself. If a problem takes more than 10 minutes, mark it and move on. Come back to marked problems after finishing the chapter. Use R.D. Sharma or R.S. Aggarwal for additional practice on weak topics.' },
       { heading: '3. Previous Year Papers (Week 9–10)', body: 'Download the last 5 years of CBSE board papers. Solve them under exam conditions — 3 hours, no breaks, no peeking. After each paper, grade yourself honestly. Identify which chapters cost you the most marks. Go back and revise those chapters specifically.' },
       { heading: '4. Revision and Mock Tests (Week 11–12)', body: 'Use your one-page summaries for rapid revision. Take at least 3 full-length mock tests. Focus on time management — many students know the answers but run out of time. Practice writing solutions neatly and showing all steps, as CBSE awards marks for methodology.' },
-      { heading: 'Pro Tip from Shreyansh', body: 'The biggest mistake students make is jumping to advanced problems before mastering NCERT. I\'ve seen students go from 60% to 95% simply by completing every NCERT example and exercise thoroughly. The board exam is designed around NCERT — trust the process.' }
+      { heading: 'Pro Tip from Shriyansh', body: 'The biggest mistake students make is jumping to advanced problems before mastering NCERT. I\'ve seen students go from 60% to 95% simply by completing every NCERT example and exercise thoroughly. The board exam is designed around NCERT — trust the process.' }
     ]
   },
   {
@@ -57,7 +57,7 @@ const BlogTips = () => {
             <span className="section-tag">Knowledge Hub</span>
             <h2 className="section-title">Academic <span className="text-gradient">Insights & Tips</span></h2>
             <p style={{ fontSize: '1.1rem', color: 'var(--text-main)', maxWidth: '550px', margin: '0 auto' }}>
-              Free resources and strategies from Shreyansh to help every student excel.
+              Free resources and strategies from Shriyansh to help every student excel.
             </p>
           </div>
 
@@ -159,7 +159,7 @@ const BlogTips = () => {
 
                 {/* Author */}
                 <p style={{ fontSize: '0.95rem', color: '#94A3B8', marginBottom: '40px', fontWeight: '600' }}>
-                  By <span style={{ color: selectedPost.color, fontWeight: '800' }}>Shreyansh Narayan Pandey</span> · TutortoHome
+                  By <span style={{ color: selectedPost.color, fontWeight: '800' }}>Shriyansh Narayan Pandey</span> · Tutor2Home
                 </p>
 
                 {/* Content Sections */}

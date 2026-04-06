@@ -8,13 +8,13 @@ import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
-    const saved = localStorage.getItem('tutortohome-dark');
+    const saved = localStorage.getItem('tutor2home-dark');
     return saved ? JSON.parse(saved) : false;
   });
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', darkMode ? 'dark' : 'light');
-    localStorage.setItem('tutortohome-dark', JSON.stringify(darkMode));
+    localStorage.setItem('tutor2home-dark', JSON.stringify(darkMode));
   }, [darkMode]);
 
   return (
