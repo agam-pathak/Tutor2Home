@@ -33,7 +33,7 @@
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/agam-pathak/Tutor2Home.git
-cd tutor2home
+cd tutor2-home
 ```
 
 ### 2. Install Dependencies
