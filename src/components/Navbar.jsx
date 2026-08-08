@@ -27,7 +27,6 @@ const Navbar = ({ darkMode, toggleDark }) => {
           <a href="#results">Results</a>
           <a href="#testimonials">Reviews</a>
 
-          {/* Dark mode toggle */}
           <button
             onClick={toggleDark}
             aria-label="Toggle dark mode"
@@ -57,7 +56,6 @@ const Navbar = ({ darkMode, toggleDark }) => {
           </button>
         </div>
 
-        {/* Mobile toggle - hidden on desktop via CSS */}
         <div className="mobile-controls">
           <button
             onClick={toggleDark}
@@ -75,7 +73,6 @@ const Navbar = ({ darkMode, toggleDark }) => {
         </div>
       </div>
 
-      {/* Mobile drawer */}
       {mobileMenuOpen && (
         <div className="mobile-drawer">
           <a href="#home" onClick={() => setMobileMenuOpen(false)}>Home</a>

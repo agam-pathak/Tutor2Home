@@ -100,7 +100,6 @@ const BlogTips = () => {
         </div>
       </section>
 
-      {/* Full Article Modal */}
       <AnimatePresence>
         {selectedPost && (
           <motion.div
@@ -126,11 +125,9 @@ const BlogTips = () => {
                 maxHeight: '85vh', overflow: 'auto', position: 'relative'
               }}
             >
-              {/* Color Header */}
               <div style={{ height: '8px', background: selectedPost.color, borderRadius: '24px 24px 0 0' }} />
               
               <div style={{ padding: '50px 60px' }}>
-                {/* Close Button */}
                 <button
                   onClick={() => setSelectedPost(null)}
                   style={{
@@ -144,7 +141,6 @@ const BlogTips = () => {
                   ✕
                 </button>
 
-                {/* Meta */}
                 <div style={{ display: 'flex', gap: '16px', alignItems: 'center', marginBottom: '24px' }}>
                   <span style={{ background: `${selectedPost.color}15`, color: selectedPost.color, padding: '6px 16px', borderRadius: '100px', fontSize: '0.8rem', fontWeight: '800' }}>
                     {selectedPost.tag}
@@ -152,17 +148,14 @@ const BlogTips = () => {
                   <span style={{ fontSize: '0.85rem', color: '#94A3B8', fontWeight: '600' }}>{selectedPost.readTime}</span>
                 </div>
 
-                {/* Title */}
                 <h2 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '2.2rem', fontWeight: '900', color: '#0F172A', lineHeight: '1.2', marginBottom: '16px', letterSpacing: '-1px' }}>
                   {selectedPost.title}
                 </h2>
 
-                {/* Author */}
                 <p style={{ fontSize: '0.95rem', color: '#94A3B8', marginBottom: '40px', fontWeight: '600' }}>
                   By <span style={{ color: selectedPost.color, fontWeight: '800' }}>Shriyansh Narayan Pandey</span> · Tutor2Home
                 </p>
 
-                {/* Content Sections */}
                 {selectedPost.content.map((section, i) => (
                   <div key={i} style={{ marginBottom: '36px' }}>
                     <h3 style={{ fontSize: '1.25rem', fontWeight: '800', color: '#0F172A', marginBottom: '12px' }}>
@@ -174,7 +167,6 @@ const BlogTips = () => {
                   </div>
                 ))}
 
-                {/* CTA */}
                 <div style={{ borderTop: '1px solid #F1F5F9', paddingTop: '40px', marginTop: '20px', textAlign: 'center' }}>
                   <p style={{ fontSize: '1.1rem', color: '#475569', marginBottom: '24px' }}>
                     Want personalized help with this topic?

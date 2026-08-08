@@ -10,7 +10,6 @@ const achievements = [
 
 const ResultsGallery = () => (
   <section id="results" style={{ background: 'var(--dark)', color: 'white', position: 'relative', overflow: 'hidden' }}>
-    {/* Background glow */}
     <div style={{ position: 'absolute', top: '-200px', left: '50%', transform: 'translateX(-50%)', width: '600px', height: '600px', background: 'radial-gradient(circle, rgba(79,70,229,0.15) 0%, transparent 70%)', pointerEvents: 'none' }} />
 
     <div className="container">

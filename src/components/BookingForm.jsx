@@ -11,7 +11,6 @@ const BookingForm = () => {
     setIsSubmitting(true);
 
     try {
-      // Logic for Formspree submission
       const response = await fetch('https://formspree.io/f/xzdkyprz', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
